@@ -1,3 +1,7 @@
 ## HNGi8 X Zuri
 
-![zuri](./public/images/zuri.jpeg)
+![HNG](./public/images/hng.jpeg)
+
+![Zuri](./public/images/zuri.jpeg)
+
+![Ingressive4Good](./public/images/ingressive.jpeg)
