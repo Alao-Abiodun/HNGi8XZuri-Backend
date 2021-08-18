@@ -1,9 +1,14 @@
 const form = document.getElementById('contact-form');
 console.log(form);
 
-// const sendMail = (mail) => {
-//   fetch
-// }
+const sendMail = (mail) => {
+  fetch("/mailing", {
+    method: "post",
+    body: mail,
+  }).then((response) => {
+    return response.json();
+  });
+}
 
 const formEvent = form.addEventListener('submit', event => {
   event.preventDefault();
