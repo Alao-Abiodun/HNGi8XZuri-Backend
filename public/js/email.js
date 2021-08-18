@@ -1,5 +1,9 @@
 const form = document.getElementById('contact-form');
-console.log(form);
+const inputs = document.querySelector('#contact-form');
+const emailResponse = document.querySelector('.message');
+// console.log(emailResponse);
+console.log(inputs[0]);
+// console.log(form[0]);
 
 const sendMail = (mail) => {
   fetch("/mailing", {
@@ -15,7 +19,13 @@ const formEvent = form.addEventListener('submit', event => {
 
   let mail = new FormData(form);
 
+
   sendMail(mail);
+
+  inputs[0].value = '';  
+  inputs[1].value = '';
+  inputs[2].value = '';
+  emailResponse.style.display = 'block'
 })
 
 

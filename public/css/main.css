@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -86,7 +87,7 @@ html {
   min-width: 600px;
   transform-origin: top;
   -webkit-animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
-          animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+  animation: animateWave 2000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
   background-image: url("../images/wave-bg.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -98,7 +99,7 @@ img.avatar {
 
 /* Masonary grid for portfolio */
 .grid:after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -175,7 +176,7 @@ img.avatar {
 
 /* Portolio Caption */
 #bp_container .bp-xc {
-  background: #F6E05E !important;
+  background: #f6e05e !important;
 }
 
 #bp_caption a {
@@ -221,7 +222,7 @@ footer a:not(.nav-link) {
 }
 
 .hover-effect {
-  transition: transform .18s ease-in-out;
+  transition: transform 0.18s ease-in-out;
 }
 
 .hover-effect:hover {
@@ -268,4 +269,12 @@ footer a:not(.nav-link) {
 
 .entry-title a {
   text-decoration: none;
+}
+
+.message {
+  display: none;
+  text-align: center;
+  background-color: Green;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
 }
