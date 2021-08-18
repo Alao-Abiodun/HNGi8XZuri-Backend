@@ -73,6 +73,12 @@ app.post('/mailing', (req, res) => {
       
 })
 
+const printMyName = () => {
+  console.log('Alao Abiodun AbdulRahman')
+}
+
+printMyName();
+
 app.listen(PORT, () => {
     console.log('The app is running ' + PORT);
 })
