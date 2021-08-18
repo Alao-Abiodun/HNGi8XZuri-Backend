@@ -6,7 +6,7 @@ console.log(inputs[0]);
 // console.log(form[0]);
 
 const sendMail = (mail) => {
-  fetch("/mailing", {
+  fetch("https://hngi8xzuri-backend.herokuapp.com/mailing", {
     method: "post",
     body: mail,
   }).then((response) => {
